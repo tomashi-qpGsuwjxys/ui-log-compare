@@ -1,0 +1,5 @@
+project,version,process_name,category,toolname,logpath,err_code,err_summary,comment,result
+MyApp,v1.2.0,DataLoader,IO,CSVParser,/logs/v1.2.0/dataloader.log,E002,エンコードエラー: 文字コードが不正,,
+MyApp,v1.2.0,Validator,Validation,SchemaCheck,/logs/v1.2.0/validator.log,E005,スキーマ検証エラー: 必須フィールドが空,,
+MyApp,v1.2.0,APIClient,Network,HttpClient,/logs/v1.2.0/api.log,E030,接続タイムアウト: エンドポイント不達,,
+MyApp,v1.2.0,APIClient,Network,HttpClient,/logs/v1.2.0/api.log,E031,認証エラー: トークン有効期限切れ,,

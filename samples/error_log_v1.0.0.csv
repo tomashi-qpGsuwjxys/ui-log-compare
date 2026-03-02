@@ -1,0 +1,4 @@
+project,version,process_name,category,toolname,logpath,err_code,err_summary,comment,result
+MyApp,v1.0.0,DataLoader,IO,CSVParser,/logs/v1.0.0/dataloader.log,E001,ファイルが見つかりません,,
+MyApp,v1.0.0,DataLoader,IO,CSVParser,/logs/v1.0.0/dataloader.log,E002,エンコードエラー: 文字コードが不正,,
+MyApp,v1.0.0,Transform,Process,Converter,/logs/v1.0.0/transform.log,E010,型変換エラー: nullが検出されました,,

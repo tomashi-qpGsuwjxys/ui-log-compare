@@ -1,0 +1,7 @@
+project,version,process_name,category,toolname,logpath,err_code,err_summary,comment,result
+MyApp,v2.0.0,DataLoader,IO,CSVParser,/logs/v2.0.0/dataloader.log,E001,ファイルが見つかりません,,
+MyApp,v2.0.0,DataLoader,IO,CSVParser,/logs/v2.0.0/dataloader.log,E002,エンコードエラー: 文字コードが不正,,
+MyApp,v2.0.0,Validator,Validation,SchemaCheck,/logs/v2.0.0/validator.log,E005,スキーマ検証エラー: 必須フィールドが空,,
+MyApp,v2.0.0,APIClient,Network,HttpClient,/logs/v2.0.0/api.log,E030,接続タイムアウト: エンドポイント不達,,
+MyApp,v2.0.0,AuthService,Security,JWTHandler,/logs/v2.0.0/auth.log,E040,JWT署名検証エラー,,
+MyApp,v2.0.0,AuthService,Security,JWTHandler,/logs/v2.0.0/auth.log,E041,セッションストア接続エラー: Redisに到達できません,,
